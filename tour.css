@@ -1,0 +1,134 @@
+/* Shared Style Section */
+
+.btn-primary {
+    background-color: red;
+    color: #ffff;
+    padding: 12px 40px 12px 12px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 27px, 127px, 0px, 135px;
+    padding-left: 135px;
+    padding-right: 127px;
+    padding-top: 65px;
+
+}
+
+.nav-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
+.banner-content {
+
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    color: #ffff;
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    border-radius: 10px;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    line-height: 15px;
+
+}
+
+.banner-content p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 676px;
+    height: 52px;
+}
+
+.banner-content form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
+    border: 0px solid white;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.30);;
+}
+
+.btn-one {
+    padding: 10px 40px 10px 10px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.btn-two {
+    padding: 10px 50px 10px 10px;
+    width: 190px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-three {
+    padding: 10px 40px 10px 10px;
+    width: 165px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.popular-tours {
+    display: flex;
+    gap: 53px;
+    margin: 8%;
+
+}
+
+.popular-tours h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.popular-tours p {
+    margin-bottom: 45px;
+}
+
+.popular-tours li {
+    margin-bottom: 25px;
+}
+
+.popular-tours img {
+    margin-top: 60px;
+   
+}
+
+
+
