@@ -45,7 +45,7 @@ nav li a {
 
 .banner-content {
 
-    height: 600px;
+    height: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -55,8 +55,9 @@ nav li a {
     color: #ffff;
     background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: 1150px;
     border-radius: 10px;
+    height: 575px;
 }
 
 .banner-content h1 {
@@ -82,7 +83,8 @@ nav li a {
     border-radius: 8px;
     border: 0px solid white;
     padding: 1%;
-    background-color: rgba(255, 255, 255, 0.30);;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin-bottom: 10%;
 }
 
 .btn-one {
