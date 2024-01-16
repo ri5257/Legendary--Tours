@@ -30,6 +30,15 @@ nav {
     display: flex;
     gap: 10px;
 }
+.nav-bar h3{
+  font-size: 36px;
+}
+.nav-bar img{
+    margin-top: 37px;
+}
+.travel {
+    color: red;
+}
 
 .nav-list {
     display: flex;
@@ -134,6 +143,91 @@ nav li a {
 
 }
 
+
+/* Destination section */
+.destination-Section-h3 {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5 rem;
+
+}
+
+.destination-Section-p {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    max-width: 643px;
+    margin: 1.5rem auto 3rem auto;
+
+}
+
+.grid {
+    position: relative;
+}
+
+.grid img {
+    object-fit: cover;
+}
+
+.grid h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -100%);
+
+}
+
+.destination-Section-pic {
+    display: grid;
+    grid-template-areas:
+        'item-one item-one item-one item-one item-one item-one item-two item-two item-two item-two item-two item-two'
+        'item-three item-three item-three item-three item-four item-four item-four item-four item-four  item-five item-five item-five'
+        'item-six item-six item-six item-six item-six item-seven item-seven item-seven item-seven item-seven item-seven item-seven'
+    ;
+    gap: 1rem;
+    color: #ffff;
+    font-size: 1.75rem;
+    padding: 7%;
+}
+
+.pic-item-one {
+    grid-area: item-one;
+}
+
+.pic-item-two {
+    grid-area: item-two;
+}
+
+.pic-item-three {
+    grid-area: item-three;
+}
+
+.pic-item-four {
+    grid-area: item-four;
+}
+
+.pic-item-five {
+    grid-area: item-five;
+}
+
+.pic-item-six {
+    grid-area: item-six;
+}
+
+.pic-item-seven {
+    grid-area: item-seven;
+}
+
+
+
+
+
+
+
 .why-choose {
     text-align: center;
 }
@@ -144,36 +238,43 @@ nav li a {
     font-weight: 800;
     line-height: 50px;
 }
-.hotel{
-   margin-left: 5%;
-   display: flex;
-  
+
+.hotel {
+    margin-left: 5%;
+    display: flex;
+
 }
-.hotel-one{
+
+.hotel-one {
     border-radius: 15px;
     padding: 5%;
     margin: 2%;
     width: 40%;
-    background-color: rgb(248, 244, 244);;
-   
+    background-color: rgb(248, 244, 244);
+    ;
+
 }
-.hotel-two{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.hotel-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .simple-tours {
     display: flex;
     gap: 53px;
     margin: 8%;
 
 }
-.simple-text{
+
+.simple-text {
     margin-top: 15px;
 }
+
 .simple-tours h1 {
     font-size: 37px;
- 
+
 }
 
 .simple-tours p {
@@ -183,44 +284,100 @@ nav li a {
 .simple-tours img {
     margin-top: 60px;
 }
-.news-text{
-    border: 1px solid salmon;
-    padding: 2%;
-    /* width: 40%; */
-    margin-left: 5%;
-    width: 474px;
-    height: 422px;
+
+
+.newsletter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap:2rem;
+    padding: 8%;
+}
+
+.news-title {
+    border-radius: 16px;
+    border: 1px solid red;
+    padding: 2.5rem;
+}
+
+.news-title-h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-title-p{
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+.news-title-hr{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.news-btn-primary{
+    background-color: red;
+    color: #ffff;
+    padding: 12px 40px 12px 12px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+.news-title form input{
+    padding: 1rem;
+    border: none;
+    width: 95%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+.discount-section{
+    position: relative;
+}
+.discount-section-save{
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    background-color: red;
+    /* padding: 1rem; */
+    border-radius: 1rem;
+    color: white;
+    transform: rotate(-17.628deg);
     
 }
-.news-text form{
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
+.discount-section p{
+    text-align: center;
+    font-weight: 700;
+    line-height: 2px;
+    padding-top: 15px;
+}
+.discount-section h4{
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-}
-.news-part{
-    display: flex;
-    column-gap:2%;
-
-}
-.news-img{
-    width: 60%;
-}
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 10px;
+
+
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     gap: 2%;
     justify-content: center;
