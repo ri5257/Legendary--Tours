@@ -4,7 +4,7 @@
     background-color: red;
     color: #ffff;
     padding: 12px 40px 12px 12px;
-    width: 150px;
+    width: 200px;
     border-radius: 5px;
     border: 0px;
 }
@@ -76,7 +76,7 @@ nav li a {
     color: #ffff;
     background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 25px;
     height: 575px;
 }
@@ -109,21 +109,22 @@ nav li a {
 }
 
 .btn-one {
-    padding: 10px 40px 10px 10px;
-    width: 135px;
+    padding: 10px 10px 10px 10px;
+    width: 170px;
     border-radius: 5px;
+    border: none;
 }
 
 .btn-two {
     padding: 10px 50px 10px 10px;
-    width: 190px;
+    width: 200px;
     border-radius: 5px;
     border: 0px;
 }
 
 .btn-three {
     padding: 10px 40px 10px 10px;
-    width: 165px;
+    width: 200px;
     border-radius: 5px;
     border: 0px;
 }
@@ -459,150 +460,178 @@ footer {
         padding-right: 20px;
         padding-top: 30px;
     }
-    
+
     .mobile-nav {
         display: block;
     }
-        .nav-list {
-            flex-wrap: wrap;
-            display: none;
-        }
 
-        .nav-bar {
-            align-items: center;
-            text-align: center;
-            gap: 5px;
-        }
-
-        .nav-bar h3 {
-            font-size: 24px;
-            margin-top: 10px;
-        }
-
-        .nav-bar img {
-            margin-top: 10px;
-        }
-
-        .banner-content {
-            height: auto;
-            margin: 7% 5%;
-            background-size: cover;
-        }
-
-        video {
-            width: 100%;
-            border-radius: 1rem;
-
-        }
-
-        .newsletter-header {
-            flex-direction: column
-        }
-
-        .discount-section img {
-            width: 100%;
-        }
-
-        .banner-content h1 {
-            font-size: 30px;
-            line-height: 40px;
-        }
-
-        .banner-content p {
-            width: 100%;
-            text-align: center;
-        }
-
-        .banner-content form {
-            flex-direction: column;
-            gap: 10px;
-            padding: 5%;
-        }
-
-        .btn-one,
-        .btn-two,
-        .btn-three,
-        .news-btn-primary {
-            width: 100%;
-            padding: 10px;
-        }
-
-        .popular-tours img {
-            width: 370px;
-            height: 376px;
-        }
-
-        .popular-tours,
-        .simple-tours {
-            flex-direction: column;
-            gap: 20px;
-            margin: 8% 5%;
-        }
-
-        .popular-tours h1,
-        .simple-tours h1,
-        .reviews-title {
-            font-size: 30px;
-        }
-
-        .destination-Section-pic {
-            grid-template-areas:
-                'item-one'
-                'item-two'
-                'item-three'
-                'item-four'
-                'item-five'
-                'item-six'
-                'item-seven'
-            ;
-            padding: none;
-        }
-
-        .destination-Section-pic img {
-            width: 100%;
-            height: 100%;
-            border-radius: 16px;
-        }
-
-        .hotel {
-            margin-left: 5%;
-            flex-direction: column;
-        }
-
-        .hotel-one {
-            border-radius: 15px;
-            padding: 5%;
-            margin: 2%;
-            width: 90%;
-            background-color: rgb(248, 244, 244);
-        }
-
-        .hotel-two {
-            flex-direction: row;
-            justify-content: none;
-            align-items: none;
-            width: 90%;
-        }
-
-        .discount-section h4 {
-            font-size: 1rem;
-            font-weight: 200;
-            line-height: 2px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        .simple-picture img {
-            width: 100%;
-            min-height: 257px;
-        }
-
-        .newsletter-header .footer-top {
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .footer-icon {
-            gap: 5%;
-        }
+    .nav-list {
+        flex-wrap: wrap;
+        display: none;
     }
+
+    .nav-bar {
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .nav-bar h3 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .nav-bar img {
+        margin-top: 10px;
+    }
+
+    .banner-content {
+        height: auto;
+        margin: 7% 5%;
+        background-size: cover;
+    }
+
+    video {
+        width: 100%;
+        border-radius: 1rem;
+
+    }
+
+    .newsletter-header {
+        flex-direction: column
+    }
+
+    .discount-section img {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .banner-content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-content form {
+        flex-direction: column;
+        gap: 10px;
+        padding: 5%;
+    }
+
+    .btn-one {
+        width: 90%;
+        padding: 10px;
+    }
+
+    
+    .btn-two,
+    .btn-three,
+    .news-btn-primary {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .popular-tours img {
+        width: 350px;
+        height: 376px;
+    }
+
+    .popular-tours,
+    .simple-tours {
+        flex-direction: column;
+        gap: 20px;
+        margin: 8% 5%;
+    }
+
+    .popular-tours h1,
+    .simple-tours h1,
+    .reviews-title {
+        font-size: 30px;
+    }
+
+    .destination-Section-pic {
+        grid-template-areas:
+            'item-one'
+            'item-two'
+            'item-three'
+            'item-four'
+            'item-five'
+            'item-six'
+            'item-seven'
+        ;
+        padding: none;
+    }
+
+    .destination-Section-pic img {
+        width: 100%;
+        height: 214px;
+        border-radius: 16px;
+    }
+
+    .hotel {
+        /* margin-left: 5%; */
+        flex-direction: column;
+    }
+
+    .hotel-one {
+        border-radius: 15px;
+        padding: 5%;
+        /* margin: 2%; */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(248, 244, 244);
+    }
+
+    .hotel-two {
+        flex-direction: row;
+        width: 97%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .discount-section h4 {
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .simple-picture img {
+        width: 100%;
+        min-height: 257px;
+    }
+
+    .newsletter-header .footer-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .card-part {
+        flex-direction: column;
+        width: 97%;
+        height: 100%;
+        align-items: center;
+        padding-right: 3px;   
+    }
+
+     .card {
+        width: 97%;
+        padding-right: 2%;
+     }   
+     .card p{
+        padding-right: 5%;
+     }
+
+    .footer-icon {
+        gap: 5%;
+    }
+}
